@@ -5,12 +5,23 @@ Use this starter kit template to kickstart your Laravel Bundles.
 
 ## How to use:
 
-Simply add the 'bundlestarter' folder to your bundles directory and then inside of your application/bundles.php add the following line to the bundles array:
+<h3>Now to begin creating your new bundle:</h3><br />
 
-```php
-'bundlestarter' => array('auto' => true, 'handles' => 'bundlestarter'),
-```
+<ol>
+	<li>
+		<p>Rename the 'bundlestarter' folder in the bundles directory to the desired bundle name</p>
+	</li>
+	<li>
+		<p>Add the line below to the array inside of the application/bundles.php file</p>
+		<pre>'bundlestarter' => array('auto' => true, 'handles' => 'bundlestarter'),</pre>
+		<small>Be sure to change the two occurrences of 'bundlestarter' to the name of your new bundle</small>
+	</li>
+	<li>
+		<p>Finally, if you are going to use the controllers/bundlecontroller.php file, be sure to replace the 2 occurences of 'bundlestarter' to the name of your bundle</p>
+	</li>
+</ol>
 
-Change the folder name to your bundle name as well as the two occurrences of 'bundlestarter' in the bundles.php and you are good to go!
+<br /><hr /><br />
 
-Then navigate to your application url followed by '/new_bundle_name' to view your new bundle!
+<h3>And, that's it!</h3>
+<p>You can now start crafting your new bundle.</p>
