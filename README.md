@@ -5,6 +5,8 @@ Use this starter kit template to kickstart your Laravel Bundles.
 
 <h3>How to use:</h3>
 
+<hr />
+
 <ol>
 	<li>
 		<p>Rename the 'bundlestarter' folder in the bundles directory to the desired bundle name</p>
