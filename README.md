@@ -3,7 +3,7 @@ Laravel Bundle Starter Kit
 
 Use this starter kit template to kickstart your Laravel Bundles.	
 
-## How to use:
+<h3>How to use:</h3>
 
 <ol>
 	<li>
