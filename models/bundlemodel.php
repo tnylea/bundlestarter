@@ -1,4 +1,4 @@
-<?php namespace $bundle_name;
+<?php
 
 /*
 |--------------------------------------------------------------------------
@@ -6,7 +6,8 @@
 |--------------------------------------------------------------------------
 */
 
-class BundleModel extends Eloquent {
+class Bundlemodel extends Eloquent {
 	
+	var $say_hello = 'This message was generated in the model class located in bundles/bundlestarter/models/bundlemodel.php';
 
 }
